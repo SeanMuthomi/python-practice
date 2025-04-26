@@ -1,7 +1,7 @@
 def reverse_string(s):
- reversed_str = ''
-for char in s:
+ reversed_str = '' #empty to bring reversed result
+for char in s: #
   reversed_str = char + reversed_str
 return reversed_str
 
-print(reverse_string("Greeting World"))
+print(reverse_string("World"))# print "dlorW"
